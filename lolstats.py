@@ -11,11 +11,11 @@ def full_stats(champ_info):
     except  AttributeError:
         sys.exit("Wrong Name")
 
-    #print(champ_info.keys())
+    
     print('\t\t'+str(champ_info.get('id')) +' '+str(champ_info.get('title')) )
     version = champ_info.get('version')
     info = champ_info.get('info')
-    #print(champ_info.get('image'))
+    
     image = champ_info.get('image')
     print("Tags: " + str(champ_info.get('tags')))
     tags = champ_info.get('tags')
