@@ -1,2 +1,2 @@
 # lol_ingame_stats
-Ingame League of Legends champion stats from riot api
+Ingame League of Legends champion and item stats from riot api
